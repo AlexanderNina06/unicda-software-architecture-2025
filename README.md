@@ -3,7 +3,7 @@
 This repository contains all the projects, documentation, and learnings from my 12-week Software Architecture diploma. Each week focuses on a specific architectural concept with hands-on implementation.
 
 **Program Duration:** 10/22/2025 - 02/21/2026
-**Institution:** UNICDA - Universidad Domínico Americano  🇩🇴 República Dominicana
+**Institution:** UNICDA - Universidad Domínico Americano 📍🇩🇴
 **Total Hours:** 72 hours (6 hours/week)
 
 ## 🎯 Personal Goals
