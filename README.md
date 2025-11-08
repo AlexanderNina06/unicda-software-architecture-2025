@@ -111,4 +111,4 @@ I'm always open to feedback, discussions, and collaboration!
 
 ---
 
-**.NET** | Following #LearningInPublic | 10/22/2025 - Present
+**.NET** | Following #LearningInPublic |
