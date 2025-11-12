@@ -1,11 +1,11 @@
 using System;
+using Inventory.Domain.Common;
 using Inventory.Domain.enums;
 
 namespace Inventory.Domain.Entities;
 
-public class InventoryMovement
+public class InventoryMovement : AuditableBaseEntity
 {
-  public int Id { get; set; }
     public int ProductId { get; set; }
     public MovementType Type { get; set; } 
     public int Quantity { get; set; }
@@ -17,5 +17,4 @@ public class InventoryMovement
     public DateTime MovementDate { get; set; }
     public string UserId { get; set; }
     public Product Product { get; set; }
-
 }
