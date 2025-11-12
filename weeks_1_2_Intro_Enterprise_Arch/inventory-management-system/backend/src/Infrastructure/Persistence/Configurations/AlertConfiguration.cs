@@ -42,12 +42,6 @@ namespace Inventory.Infrastructure.Persistence.Configurations
 
             builder.HasIndex(a => a.ProductId);
 
-            // ❌ REMOVED: builder.HasIndex(a => a.Type);
-            // Low cardinality (only 3 values), better in composite or filtered
-
-            // ❌ REMOVED: builder.HasIndex(a => a.IsResolved);
-            // Low cardinality (only 2 values), already covered by filtered index below
-
             // Composite index for active alerts by product
             builder.HasIndex(a => new { a.ProductId, a.IsResolved });
 
