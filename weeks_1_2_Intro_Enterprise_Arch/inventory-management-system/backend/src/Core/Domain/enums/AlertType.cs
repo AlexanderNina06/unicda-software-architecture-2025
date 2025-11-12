@@ -2,7 +2,7 @@ namespace Inventory.Domain.enums;
 
 public enum AlertType
 {
-    LowStock,         // Stock bajo
+    LowStock,         
     OutOfStock,       
     ExpiringSoon  
 }
